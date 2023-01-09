@@ -1,0 +1,478 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.home-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url("image/home-sec.jpeg");
+    background-size: cover;
+    padding: 0px 8p;
+    display: flex;
+    flex-direction: column;
+    
+}
+.nav-section{
+ width: 100%;
+ height: 145px;
+ display: flex;
+}
+.nav-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    
+}
+.nav-right{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.nav-icon{
+    margin-top:53px;
+    height: 46px;
+    width: 41px;
+    margin-left: 58px;
+}
+.nav-map{
+    top: 66px;
+    height: 19px;
+    width: 20px;
+    left: 296px;
+    position: absolute;
+}
+.nav-browser{
+    top: 64px;
+    height: 21px;
+    width: 22px;
+    left: 358px;
+    position: absolute;
+}
+.nav-ktm-logo{
+    
+    height: 100%;
+    width: 143px;
+    left: 426px;
+    position: absolute;
+}
+.home-center-section{
+    display: flex;
+    flex-direction: column;
+}
+.home-text{
+    width: 100%;
+    position: relative;
+}
+.home-text-1{
+    left: 400px;
+    top: 67px;
+    height: 50px;
+    width: 600px;
+    font-size: 24px;
+    font-weight: 800;
+    position: absolute;
+    color: aliceblue;
+font-family:'Arial Narrow Bold', sans-serif;
+}
+.home-text-2{
+    text-align: center;
+    top: 94px;
+    position: absolute;
+    left: 220px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 65px;
+    font-weight: 900;
+    color: aliceblue;
+}
+.home-btns{
+    margin-top: 197px;
+    margin-left: 342px;
+    display: flex;
+}
+.home-btn1{
+    width: 188px;
+    height: 75px;
+    border: 1px solid #ff6600;
+    background-color: #ff6600;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+.home-btn1:hover{
+    background-color: transparent;
+    color: #ff6600;
+}
+
+.home-btn2{
+    width: 260px;
+    height: 75px;
+    margin-left: 47px;
+    border: 1px solid #ff6600;
+background-color: #ff6600;
+font-weight: 700;
+    font-size: 16px;
+    color: white;
+}
+.home-btn2:hover{
+    background-color: transparent;
+    color: #ff6600;
+}
+.section-2{
+    width: 100%;
+    height: 462px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+}
+.section-2-text{
+    padding-left: 300px;
+    margin-top: 82px;
+    background-color: white;
+    height: 225px;
+    width: 100%;
+    
+}
+.section-2-text-1{
+    font-size: 70px;
+    color: black;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+}
+.section-2-text-2{
+    font-size: 70px;
+    color: #ff6600;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+}
+.section-2-btn{
+    width: 100%;
+    display: flex;
+    background-color:white;
+}
+.section-2-btn1{
+    margin-left: 328px;
+    width: 255px;
+    height: 75px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 15px;
+}
+.section-2-btn1:hover{
+    background-color: black;
+    color: white;
+}
+.section-2-btn2{
+    margin-left: 50px;
+    width: 270px;
+    height: 75px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+
+}
+.section-2-btn2:hover{
+    background-color:white;
+    color:black;
+}
+.section-3{
+    padding:0px 22px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 575px 545px;
+
+}
+.section-3-div-1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start:1 ;
+    grid-row-end: 2;
+
+}
+.section-3-img-1{
+    background-size: cover;
+   height: 495px;
+   width: 1183px;
+}
+.section-3-row2-img{
+    width: 94%;
+    height: 465px;
+    margin-left: 3%;
+
+}
+.section-3-row2-imgs{
+    height: 381px;
+    width: 100%;
+}
+.sec-3-row-2-text1{
+    font-family: "Arial Narrow Bold", sans-serif;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    font-size: 13px;
+
+}
+.sec-3-row-2-text2{
+    font-family: "Arial Narrow Bold", sans-serif;
+    margin-left: 2px;
+    font-size: 26px;
+
+}
+.section-4{
+    padding:0px 22px;
+    width: 100%;
+    height: 781px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.section-4-div{
+height: 701px;
+width: 358px;
+
+}
+.section-4-img{
+    width: 100%;
+    height: 358px;
+}
+.sectoin-4-time{
+margin-top: 23px;
+font-size: 17px;
+}
+.section-4-heading{
+    margin-top: 23px;
+    margin-left: 4px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.section-4-heading:hover{
+    color: #ff6600;
+}
+.section-4-para{
+    margin-top: 11px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.section-5{
+    padding: 0px 22px;
+    height: 675px;
+    width: 100%;
+}
+.section-5-div-1{
+    width: 100%;
+    height: 520px;
+    display: flex;
+}
+.sectoin-5-1-type{
+    width: 50%;
+    height:520px ;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows:50% 50%;
+}
+.sectoin-5-2-type{
+    width: 50%;
+    height:520px ;
+    background-color:black;
+}
+.section-5-imgs{
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+.section-5-imgs2{
+    margin-top: -115px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 167%;
+    zoom: normal;
+    position: relative;
+    z-index: -1;
+
+}
+.section-5-2-text1{
+    color: white;
+    margin: 118px 0px 0px 208px;
+    font-family: "Arial Narrow Bold", sans-serif;
+}
+.section-5-2-line{
+    width: 75px;
+    background-color: aliceblue;
+    color: #ff6600;
+    margin: auto;
+}
+.section-5-2-text2{
+    color: gray;
+    font-size: 20px;
+    margin: 36px 0px 10px 145px;
+}
+.section-5-2-btn{
+    height: 75px;
+    width: 200px;
+    position: relative;
+    margin: 55px 0px 0px 198px;
+    background-color: black;
+    border: 1px solid white;
+}
+.section-5-2-btn:hover{
+    border-color: #ff6600;
+}
+.section-5-2-btn-img{
+    height: 17px;
+    width: 18px;
+    position: absolute;
+    top: 28px;
+    left: 52px;
+}
+.section-5-2-btn-text{
+    top: 28px;
+    left: 78px;
+    position: absolute;
+    font-family:'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+    
+    
+
+}.section-5-div-2{
+    width: 100%;
+    height: 153px;
+    z-index: 100;
+}
+
+
+.section-5-div-2-text{
+    height: 75px;
+    width: 263px;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid white ;
+}
+.section-5-div-2-btn{
+    height: 75px;
+    width: 150px;
+    font-size: 16px;
+    color: #ff6600;
+    background-color: white;
+    border: 1px solid #ff6600;
+}
+.section-5-div-2-btn:hover{
+background-color: #ff6600;
+color: white;
+
+}
+.section-5-div-2-texts{
+    padding-left: 371px;
+    padding-top: 64px;
+    height: 90px;
+    z-index: 99;
+    background-color: white;
+}
+.section-6{
+    border:1px solid gray;
+    height: 242px;
+    width: 100%;
+}
+.section-6-text{
+    padding-top: 50px;
+    margin: auto;
+    width: 67%;
+    height: 79%;
+
+}
+.section-6-text-para{
+    padding-bottom: 7px;
+    color: grey;
+}
+.section-7{
+    height: 636px;
+    width: 100%;
+    background-color: black;
+    padding: 0px 22px;
+}
+.footer-div-1{
+    padding-top: 71px;
+    height: 523px;
+    width: 100%;
+       display: flex;
+    justify-content: space-between;
+}
+.footer-div-1-col-1{
+    width: 140px;
+    height: 405px;
+   
+}
+.footer-div-1-col-2{
+    width: 161px;
+    height: 405px;
+   }
+.footer-div-1-col-3{
+    width: 176px;
+    height: 405px;
+   
+}
+.footer-div-1-col-4{
+    width: 115px;
+    height: 405px;
+ 
+}
+.footer-div-1-col-5{
+    width: 213px;
+    height: 405px;
+   
+}
+li{
+   list-style: none;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px 0px;
+    font-family: '', sans-serif;
+    color: white;
+}.footer-h3{
+    font-size:15px;
+    color: white;
+    font-weight: 800;
+    padding:0px 0px 43px 0px;
+    font-family:'Arial Narrow Bold', sans-serif;
+}
+.footer-imags{
+    width: 100%;
+}
+.footer-img{
+    height: 27px;
+    width: 26px;
+    margin-right: 24px;
+}
+.last-footer{
+    width: 100%;
+    height: 110px;
+    display: flex;
+}.left-footer{
+    height: 100%;
+    width: 50%;
+}
+.right-footer{
+    height: 100%;
+    width: 50%;
+    display: flex;
+}
+.left-text{
+margin-top: 46px;
+font-size: 19px;
+color: gray;
+}
+.right-footer-text{
+    margin-top: 45px;
+    margin-left: 398px;
+    color: #ff6600;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+    display: flex;
+    text-decoration: none;
+}
+.last-footer-img{
+    height: 20px;
+    width: 30px;
+}
